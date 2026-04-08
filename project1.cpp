@@ -54,7 +54,7 @@ void temp::signUp() {
     file.open("loginData.txt", ios::out | ios::app);
     file << userName << "*" << Email << "*" << password << endl;
     file.close();
-    cout << "\nRegistration Succesful!\\n";
+    cout << "\nRegistration Succesful!\n";
 }
 
 void temp::login() {
@@ -91,7 +91,9 @@ void temp::forget() {
 
     file.open("loginData.txt", ios::in); 
     bool found = false;
-    while (getline(file, userName, '*') && getline(file, Email, '*')) {
+    while (getline(file, userName, '*') && getline(file, Email, '*') && getline(file, password)) {
+
+        password = password.substr(0, password.find('\n'));
         if (userName == searchName && Email == searchEmail) {
             cout << "\nAccount Found!";
             cout << "\nYour Password is: " << password << endl;
