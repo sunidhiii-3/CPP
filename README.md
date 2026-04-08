@@ -1,5 +1,5 @@
 # CPP
-Projects on C++.
+Projects on the basic structure of a registration and login page using C++
 
 OUTPUT:
 
