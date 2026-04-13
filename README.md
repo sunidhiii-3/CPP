@@ -11,7 +11,9 @@ It allows users to create an account, store their credentials, and securely log 
 
 
 
+
  🚀 Features
+ 
 
  👤 User Registration
  
@@ -25,11 +27,13 @@ It allows users to create an account, store their credentials, and securely log 
 
 
 
+
  🛠️ Technologies Used
 
 C++
 File Handling (fstream)
 Object-Oriented Programming (OOP)
+
 
 
 
@@ -39,6 +43,7 @@ main.cpp → Controls program flow
 login.cpp → Handles login functionality
 register.cpp → Handles user registration
 users.txt → Stores user data
+
 
 
  
@@ -57,6 +62,7 @@ users.txt → Stores user data
 
 
 
+
  📸 Output Preview
 
 <img width="242" height="517" alt="Screenshot 2026-04-09 at 1 50 18 AM" src="https://github.com/user-attachments/assets/5cca1f67-49f4-4201-b679-fbc6afee2c1c" />
@@ -66,11 +72,13 @@ users.txt → Stores user data
 
 
 
+
  🎯 Learning Outcomes
 
  Understanding file handling in C++
  Implementing authentication logic
  Structuring a modular C++ project
+
 
 
 
