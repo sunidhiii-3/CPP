@@ -36,10 +36,14 @@ This project demonstrates file handling, user authentication, and data managemen
 1. Clone the repository  
 
 2. Compile the code:
-      ```g++ main.cpp -o login```
+      ```
+   g++ main.cpp -o login
+      ```
    
-3. Run:
-     ```./login```
+4. Run:
+     ```
+   ./login
+     ```
 
 
 
