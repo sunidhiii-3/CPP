@@ -2,10 +2,13 @@
 
  
 
+
+
  📌 Project Overview
 
 This project is a simple **Login and Registration System** developed using C++.
 It allows users to create an account, store their credentials, and securely log in using file handling.
+
 
 
  🚀 Features
@@ -17,11 +20,13 @@ It allows users to create an account, store their credentials, and securely log 
  ✅ Simple and Easy-to-Use Interface
 
 
+
  🛠️ Technologies Used
 
 C++
 File Handling (fstream)
 Object-Oriented Programming (OOP)
+
 
 
  📂 Project Structure
@@ -30,6 +35,7 @@ main.cpp → Controls program flow
 login.cpp → Handles login functionality
 register.cpp → Handles user registration
 users.txt → Stores user data
+
 
  
  ▶️ How to Run
@@ -46,13 +52,27 @@ users.txt → Stores user data
    ./login
 
 
+
  📸 Output Preview
 
 <img width="242" height="517" alt="Screenshot 2026-04-09 at 1 50 18 AM" src="https://github.com/user-attachments/assets/5cca1f67-49f4-4201-b679-fbc6afee2c1c" />
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 <img width="321" height="203" alt="Screenshot 2026-04-09 at 1 50 37 AM" src="https://github.com/user-attachments/assets/738a3459-943e-4952-a6fa-d9d3172ec664" />
+
 
 
  🎯 Learning Outcomes
@@ -60,6 +80,7 @@ users.txt → Stores user data
  Understanding file handling in C++
  Implementing authentication logic
  Structuring a modular C++ project
+
 
 
 👩‍💻 Author
